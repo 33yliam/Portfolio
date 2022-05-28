@@ -1,0 +1,13 @@
+.theme-dark .App-header {
+    background-color: red;
+}
+
+.theme-dark .uil-ring-css .spin-load{
+    border-bottom: 10px dotted #868686;
+}
+.theme-dark .uil-ring-css  img{
+    content: url('/public/logoWhite.png');
+}
+.theme-dark div.loading{
+    background-color: #000000;
+  }

@@ -1,0 +1,36 @@
+.theme-boardsider {
+    background: #41145a;
+    
+}
+.theme-boardsider .md\:w-5\/12 p{
+    background: #3b0e54;
+}
+.theme-boardsider .project-header {
+    border-color:  #3b0e54;
+}
+.theme-boardsider .project-header span{
+    background: #41145a;
+}
+.theme-boardsider .pro-sidebar > .pro-sidebar-inner {
+    background: #3b0e54;
+  }
+  .theme-boardsider .pro-sidebar .pro-menu .pro-menu-item {
+    border-bottom: 1px solid #3b0e54;
+}
+.theme-boardsider p {
+    border-radius: 1%;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    }
+.theme-boardsider .loading{
+  animation: ani-boardsider 1.5s infinite;
+}
+@keyframes ani-boardsider {
+  to {background: #41145a;}
+}
+  .theme-boardsider h3 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+  }

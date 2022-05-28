@@ -1,0 +1,43 @@
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 20px;
+  top: 20px;
+}
+
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+ .closeBTN :hover{
+  color: #aaaaaa;
+}
+.closeBTN{
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  width: 200px !important;
+}
+
+.bm-menu {
+  background: #88898b;
+  overflow: hidden !important;
+  font-size: 1.15em;
+}
+

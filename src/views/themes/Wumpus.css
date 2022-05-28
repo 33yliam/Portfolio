@@ -1,0 +1,35 @@
+.theme-wumpus {
+    background: #613100;
+}
+.theme-wumpus .md\:w-5\/12 p{
+    background: #582c00;
+}
+.theme-wumpus .project-header {
+    border-color:  #774218;
+}
+.theme-wumpus .project-header span{
+    background: #613100;
+}
+.theme-wumpus .pro-sidebar > .pro-sidebar-inner {
+    background: #582c00;
+  }
+  .theme-wumpus .pro-sidebar .pro-menu .pro-menu-item {
+    border-bottom: 1px solid #663300;
+}
+.theme-wumpus p {
+    border-radius: 1%;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    }
+.theme-wumpus .loading{
+    animation: ani-wumpus 1.5s infinite;
+  }
+  @keyframes ani-wumpus {
+    to {background: #613100;}
+  }
+  .theme-wumpus h3 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+  }

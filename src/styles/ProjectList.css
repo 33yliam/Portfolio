@@ -1,0 +1,48 @@
+.project-header{
+    text-align: left;
+    border-bottom: 0.1px solid #939599;
+    line-height: .1em;
+  }
+  .project-header span{
+    background: #49494b;
+    padding-right: 10px;
+  }
+  .flex-wrap{
+    text-align: left;
+  }
+  .md\:w-5\/12 p {
+  background:#737374;
+  border-radius: 1%;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
+  }
+  .md\:w-5\/12 h3 a{
+    color: #fffbd3;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  @media (min-width: 768px){
+    .project-right{
+      justify-content: right;
+    }
+    .md\:w-5\/12 p {
+    margin-left: -100px;
+  }
+  .md\:w-5\/12 h3, .md\:w-5\/12 span{
+    text-align: right;
+  }
+  liam  .md\:w-5\/12 h3{
+    text-align: right !important;
+  }
+  .p-order {
+    margin-left: 0px !important;
+    margin-right: -100px !important;
+    z-index: 2;
+  }
+  }
+  
+  .project-date{
+color:wheat;
+font-size: 18px;
+  }

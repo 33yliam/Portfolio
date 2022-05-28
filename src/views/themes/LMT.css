@@ -1,0 +1,36 @@
+.theme-lmt {
+    background: #003b49;
+}
+.theme-lmt .md\:w-5\/12 p{
+    background: #084b5b;
+}
+.theme-lmt .project-header {
+    border-color:  #084b5b;
+}
+.theme-lmt .project-header span{
+    background: #003b49;
+}
+.theme-lmt .pro-sidebar > .pro-sidebar-inner {
+    background: #084b5b;
+  }
+  .theme-lmt .pro-sidebar .pro-menu .pro-menu-item {
+    border-bottom: 1px solid #0d5a6d;
+}
+.theme-lmt p {
+    border-radius: 1%;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    }
+.theme-lmt .loading{
+    animation: ani-lmt 1.5s infinite;
+  }
+  @keyframes ani-lmt {
+    to {background: #003b49;}
+  }
+
+  .theme-lmt h3 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+  }

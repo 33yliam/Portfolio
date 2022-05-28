@@ -1,0 +1,35 @@
+.theme-insiderApp {
+    background: #590303;
+}
+.theme-insiderApp .md\:w-5\/12 p{
+    background: #510909;
+}
+.theme-insiderApp .project-header {
+    border-color:  #660909;
+}
+.theme-insiderApp .project-header span{
+    background: #590303;
+}
+.theme-insiderApp .pro-sidebar > .pro-sidebar-inner {
+    background: #510909;
+  }
+  .theme-insiderApp .pro-sidebar .pro-menu .pro-menu-item {
+    border-bottom: 1px solid #5c0808;
+}
+.theme-insiderApp p {
+    border-radius: 1%;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    }
+.theme-insiderApp .loading{
+    animation: ani-insiderApp 1.5s infinite;
+  }
+  @keyframes ani-insiderApp {
+    to {background: #590303;}
+  }
+  .theme-insiderApp h3 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+  }

@@ -1,0 +1,43 @@
+.side-bar-class {
+    overflow: hidden;
+    z-index: 5 !important;
+}
+.pro-sidebar {
+min-width: 0px;
+max-width: 150px;
+}
+.bm-item-list .pro-sidebar {
+  min-width: 0px;
+  max-width: 200px;
+  }
+@media only screen and (max-width: 600px) {
+
+  }
+.pro-sidebar-header img{
+    content: url(/public/yliam.png);
+    width: 100%;
+}
+ .pro-sidebar > .pro-sidebar-inner {
+    background: #88898b;
+  }
+ .pro-sidebar .pro-menu.shaped .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+    background-color: #000000;
+  }
+  .pro-sidebar {
+    color: #ffffff;
+  }
+  .pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(131 131 131);
+  }
+   .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: #88898b;
+  }
+  .nav-footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    padding-right: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }

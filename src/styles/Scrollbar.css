@@ -1,0 +1,15 @@
+.scrollbar {
+    overflow: scroll;
+  }
+ .thumbY {
+    background: #ffffff !important;
+  }
+ .trackY{
+    background: inherit !important;
+        border-radius: 0px !important;
+        height: calc(100%) !important;
+     top: 0px !important;
+  }
+  .trackX{
+    visibility: hidden;
+  }

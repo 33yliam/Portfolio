@@ -1,0 +1,60 @@
+
+  .switch {
+    background-color: transparent;
+    height: 42px;
+    width: 42px;
+    border-radius: 0%;
+    transition: height 300ms;
+    transition-timing-function: ease;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    overflow: hidden;
+    z-index: 3;
+  }
+  
+  .switch:hover {
+    height: 330px;
+  }
+  
+  .switch:hover .switch-theme {
+    transform: rotate(180deg);
+  }
+  
+  .switch-theme {
+    position: fixed;
+    padding: 2px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 28px;
+    transition: transform 300ms;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  
+  .switch-select {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-bottom: 5px;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .switch-select:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .switch-selectIcon {
+    height: 24px;
+    width: 24px;
+    margin-top: 12px;
+  }
+  
+  .op5 {
+    background-color: #2f82fc;
+  }
