@@ -19,7 +19,10 @@ export default function SwitchTheme() {
     useEffect(() => {
         if (pathname === '/' || pathname === '/about')
             document.getElementsByTagName('body')[0].className = theme;
-    }, [theme, pathname])
+    }, [pathname])
+    useEffect(() => {
+        document.getElementsByTagName('body')[0].className = theme;
+    }, [theme])
     return (
         <>
             <div className="switch">
